@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	color: #000000; margin: 0; font-family: "Roboto", sans-serif
+}
+.header{
+	width: 100%;height: 60px; background: #FDB14D
+}
+.top-bar{
+	width: 100%; height: 40px; background-color: #EEEEEE
+}
+.container{
+	height: 40px; width: 60%; padding: 10px; margin: 0
+}
+
+.ml-15{
+	margin-left: 5px
+}
+.logo{
+	float: left
+}
+.menu ul{
+margin: 0; padding: 0; list-style: none; display: flex; 
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color:#505050
+}
+.icon-1 i{
+	padding: 0 5px; color: #822B13
+}
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #C62F31
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:aqua;
+      text-decoration: none; }
+.banner{
+	width: 100%; min-height: 500px;
+}
+.vien{
+	border: 1px solid darkred; padding: 10px; border-radius:0px; position: relative; overflow: hidden
+}
+.text-do{
+	color: darkred
+}
+.icon{
+	position: absolute; width: 80%; height:  45px; left: 10%; top: -15%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 45px; height: 45px; background-color: rgba(173,173,173,1); border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: darkred
+}
+.icon a:hover{
+	height: 45px; width: 45px; background-color: darkred; color: white; 
+}
+.vien:hover .icon{
+	top:40%
+}
+.img-100{
+	width: 100%; height: auto
+}
+
+.container{
+	width: 60%; margin: 0 auto; height: auto
+}
+.vien p a{
+	text-decoration: none; color: darkred
+}
+main{
+	width: 100%; min-height: 500px;
+}
+#feature{
+	width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom
+}
+.pt-30{
+	padding-top: 30px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.vien-trang{
+	border: 1px solid white; padding: 20px; text-align: center
+}
+.vien-trang a{
+	text-decoration: none; color: darkred
+}
+.vien-trang a:hover{
+	color: white
+}
+.blog{ 
+	width: 20%
+}
+.container p{
+	margin: 0;
+}
+#contact{
+	width: 100%; min-height: 600px;background-image: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+.shadow{
+	border: 1px solid rgba(84,84,84,0); min-height: 300px; box-shadow: 5px 5px 5px gray; padding: 40px
+}
+.btn{
+	padding: 10px 20px; background-color: #E05D17; color: white; border-radius: 10px; border: none; cursor: pointer
+}
+.btn:hover{
+	background-color: #AE3F1A; color: black
+}
+.form-control{
+	padding: 8px; width: 100%; margin-bottom: 10px
+}
